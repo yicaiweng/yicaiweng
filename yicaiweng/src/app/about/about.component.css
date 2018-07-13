@@ -13,23 +13,18 @@
   margin: 15px 0 40px 40px;
 }
 
-.about-list {
+.about-list, .projectContent-list {
   list-style-type: none;
 }
 
-.about-list li {
-  border-bottom: 1px solid grey;
+.about-list li, .projectContent-list li{
   width: 400px;
   padding: 10px 0px;
+  border-bottom: 2px dotted grey;
 }
 
 .projectContent {
   float: left;
-}
-
-.projectContent p {
-  margin-left: 40px;
-  padding: 10px 0px;
 }
 
 .downloadbutton {
