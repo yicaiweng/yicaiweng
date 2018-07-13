@@ -16,5 +16,16 @@
   width: auto;
   height: 100%;
   float: left;
-  top: 100px;
+  margin-top: 200px;
+}
+
+.title {
+  margin-left: 40px;
+}
+
+.title-divider {
+  width: 100px;
+  height: 5px;
+  background-color: #BF0B1D;
+  margin: 15px 0 40px 40px;
 }
