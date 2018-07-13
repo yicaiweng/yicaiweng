@@ -1,2 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+/* all pages' content style */
+.contentPage {
+    position: absolute;
+    left: 200px;
+    right: 0px;
+    overflow: hidden;
+    height: 100%;
+    background-color: #2b313d;
+    color: #d4cec3;
+}
+
+.content {
+  width: auto;
+  height: 100%;
+  float: left;
+  top: 100px;
+}
