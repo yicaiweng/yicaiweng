@@ -42,3 +42,13 @@ li a:hover {
 .icon li a {
   display: inline;
 }
+
+.copyright p{
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  font-size: 12px;
+  padding: 30px;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
