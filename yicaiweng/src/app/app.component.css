@@ -13,7 +13,7 @@
 }
 
 .menu-list {
-  padding: 5px 40px;
+  padding: 5px 15px;
   list-style-type: none;
   line-height: 50px;
   font-size: 20px;
@@ -22,6 +22,8 @@
 li a {
   color: white;
   text-decoration: none;
+  border-bottom: 1px solid grey;
+  padding: 13px 0px;
 }
 
 li a:hover {
