@@ -1,0 +1,41 @@
+.aboutContent, .projectContent {
+  margin-top: 200px;
+}
+
+.title {
+  margin-left: 40px;
+}
+
+.title-divider {
+  width: 100px;
+  height: 5px;
+  background-color: #BF0B1D;
+  margin: 15px 0 40px 40px;
+}
+
+.about-list {
+  list-style-type: none;
+}
+
+.about-list li {
+  border-bottom: 1px solid grey;
+  width: 400px;
+  padding: 10px 0px;
+}
+
+.projectContent {
+  float: left;
+}
+
+.projectContent p {
+  margin-left: 40px;
+  padding: 10px 0px;
+}
+
+.downloadbutton {
+  margin-left: 55px;
+  border-radius: 5%;
+  border: 2px solid #BF0B1D;
+  background: transparent;
+  color: #aeaeae;
+}
