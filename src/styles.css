@@ -29,3 +29,7 @@
   background-color: #BF0B1D;
   margin: 15px 0 40px 40px;
 }
+
+.about-list, .projectContent-list, .resume-list {
+  list-style-type: none;
+}
