@@ -19,13 +19,26 @@
   font-size: 20px;
 }
 
+li {
+  border-bottom: 1px dotted #aeaeae;
+  width: 100%;
+  text-align: center;
+}
+
 li a {
   color: white;
   text-decoration: none;
-  border-bottom: 1px solid grey;
   padding: 13px 0px;
 }
 
 li a:hover {
   color: #C00B1C;
+}
+
+.icon {
+  
+}
+
+.icon li a {
+  display: inline;
 }
