@@ -1,0 +1,31 @@
+.menu {
+  position: fixed;
+  z-index: 100;
+  background: linear-gradient(to bottom, #575757, black);
+  width: 200px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.img {
+  margin-top: 10px;
+}
+
+.menu-list {
+  padding: 5px 15px;
+  list-style-type: none;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+  padding: 13px 0px;
+}
+
+li a:hover {
+  color: #C00B1C;
+}
