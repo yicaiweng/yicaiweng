@@ -1,0 +1,7 @@
+.content-scroller {
+    position: absolute;
+    left: 200px;
+    right: 0px;
+    overflow: hidden;
+    height: 100%;
+}

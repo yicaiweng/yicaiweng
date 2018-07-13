@@ -1,12 +1,28 @@
-  <nav class="navbar navbar-dark bg-dark">
+  <!-- <nav class="navbar navbar-dark bg-dark">
       <li class="nav-item navbar-brand"><a class="nav-link" routerLink='home'>Yicai Weng</a></li>
-    <div class="">
+    <div class="yicai">
       <ul class="navbar navbar-right">
-        <li class="nav-item"><a class="nav-link" routerLink='resume'></a>Resume</li>
-        <li class="nav-item"><a class="nav-link" routerLink='contact'></a>Contact</li>
-        <li class="nav-item"><a class="nav-link" routerLink='about'></a>About</li>
+        <li class="nav-item"><a class="nav-link" routerLink='resume'>Resume</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink='contact'>Contact</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink='about'>About</a></li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
+  
+  <aside>
+    <div class="col container menu">
+      <img src="./assets/logo5.png" class="img">
+      <ul class="menu-list">
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="">Project</a></li>
+        <li><a routerLink="about">About</a></li>
+        <li><a routerLink="resume">Resume</a></li>
+        <li><a routerLink="contact">Contact</a></li>
+      </ul>
+    </div>
+</aside>
+<!-- <app-about></app-about>
+<app-resume></app-resume>
+<app-contact></app-contact> -->
 
 <router-outlet></router-outlet>

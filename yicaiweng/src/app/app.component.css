@@ -1,6 +1,29 @@
-.nav-right {
-  background-color: red;
-  padding: 10px 10px;
-  float: left;
-  border: 2px solid red;
+.menu {
+  position: fixed;
+  z-index: 100;
+  background: linear-gradient(to bottom, #575757, black);
+  width: 200px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.img {
+  margin-top: 10px;
+}
+
+.menu-list {
+  padding: 5px 40px;
+  list-style-type: none;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #C00B1C;
 }
